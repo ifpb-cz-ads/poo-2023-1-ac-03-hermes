@@ -1,0 +1,7 @@
+public class VariaveisLong {
+    public static void main(String[] args) {
+        long long1 = 100;
+        int int1 = 200, int2;
+        int2 = (int) long1 + int1;
+    }
+}
