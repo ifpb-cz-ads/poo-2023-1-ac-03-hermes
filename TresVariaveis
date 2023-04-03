@@ -1,0 +1,10 @@
+class TresVariaveis {
+    public static void main(String[] args) {
+        int variavel1 = 5;
+        int variavel2 = 10;
+        int variavel3 = 15;
+        int soma = variavel1+variavel2+variavel3;
+        int media = soma/3;
+        System.out.println("Soma: " + soma + "\nMedia: " + media);
+    }
+}

@@ -1,0 +1,9 @@
+public class OrcamentoTotal
+{
+    public static void main(String[] args){
+        double diametroMaior = 10, diametroMenor = 3, profundidade = 1.6;
+        double cubagem = diametroMaior * diametroMenor * profundidade;
+        System.out.println("Metros cúbicos: " + cubagem);
+        System.out.println("Orçamento necessário para a construção da piscina: " + (cubagem*100.00));
+    }
+}
